@@ -1,0 +1,25 @@
+services:
+  productpage:
+    build: ./productpage
+    ports:
+      - "8080:80"
+    depends_on:
+      - details
+      - reviews
+
+  details:
+    build: ./details
+    ports:
+      - "3001:3000"
+
+  reviews:
+    build: ./reviews
+    ports:
+      - "8081:8080"
+    depends_on:
+      - ratings
+
+  ratings:
+    build: ./ratings
+    ports:
+      - "3002:3000"
