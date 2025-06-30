@@ -39,7 +39,6 @@ To set up and run the microservices application, follow these steps:
 1. **Clone the Repository**
    ```bash
    git clone <repository-url>
-   cd microservices-app
    ```
 
 2. **Build and Run Microservice**
