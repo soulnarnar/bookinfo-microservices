@@ -50,6 +50,7 @@ To set up and run the microservices application, follow these steps:
 
 3. **Access the Microservices**
    - Product Page: `http://localhost:8080`
+   - Will give the json response for product details, reviews and ratings
 
 ## Additional Information
 
